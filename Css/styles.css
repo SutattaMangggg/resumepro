@@ -1,0 +1,135 @@
+body{
+    background-color: #CCCCFF;
+}
+#title{
+    background-color:#9999FF;
+    color:#fff;
+
+}
+
+h1{
+    font-family: 'Mitr', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight:medium ;
+}
+
+h4{
+    
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight:bold ;
+
+}
+้h5{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight:medium ;
+}
+
+
+.container-fluid{
+    padding: 0% 3%; 
+}
+
+/*Navigation Bar*/
+.navbar {
+    padding-bottom: 1.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+  
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Title Image  */
+.title-image {
+    margin-left: 10%;
+    width: 60%;
+  }
+
+.image_resize {
+    width: 100px;
+    height: 100px;
+}
+
+  #bottom-bar {
+	width: 100%;
+	background-color: #9999FF;
+	position: fixed;
+  bottom: 0;
+  }
+.bottom-bar-element {
+	width: 25%;
+	display: inline-block;
+    float: none;
+	text-align: center;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	color: white;
+  cursor: pointer;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.bottom-bar-element:hover {
+	color: white!important;
+}
+
+#bottom-bar:hover .bottom-bar-element {
+	color: #78909C;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.wrapper {
+    min-height: 100%;
+    height: 5px;
+	position: relative;
+    padding-top: 24px;
+    text-align: center;
+}
+.tm-main-content { 
+    padding: 35px 30px; 
+}
+
+.tm-btn {
+	display: inline-block;
+	font-size: 1.2rem;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	width: 160px;
+}
+
+.tm-btn-blue {
+	color: white;
+	background-color: #186e9d;
+}
+
+.tm-btn-blue:hover,
+.tm-btn-blue:focus {
+	color: white;
+	background-color: #389fd7;
+}
+.tm-margin-b-p,
+p.tm-margin-b-p { 
+    margin-bottom: 35px; 
+}
